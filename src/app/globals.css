@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --yellow: #D7EEB8;
+  --green: #0C4B56;
+  --nav-green: #073135;
+  --light-green: #9AC457;
+  --disabled: #EDF9DC;
+}
+
+body{
+  background-color: var(--green);
+  overflow: hidden;
+}
+
+input[type="text"], input[type="password"], input[type="email"]{
+  background-color: var(--nav-green);
+  color: var(--yellow);
+}
+
+input[type="submit"]:disabled{
+  background-color: var(--disabled);
+  opacity: 0.25;
+}
+
+.login-title{
+  color: var(--yellow)
+}
+
+.input-submit-login{
+  color: var(--green);
+  background-color: var(--yellow);
+}
+
+.input-submit-login:hover{
+  background-color: var(--light-green);
+  transition: 10ms;
+}
+
+.login-container{
+  border-radius: 30px;
+}
+
+.input-border{
+  border: 2px solid var(--yellow);
+}
+
+.input-border::placeholder{
+  color: var(--yellow);
+}
+
+.nav-bar{
+  background-color: var(--nav-green);
+}
+
+.main-form-container{
+  background-color: var(--nav-green);
+}
+
+.label-styles{
+  color: var(--yellow)
+}

@@ -1,0 +1,16 @@
+{
+  "animals": [
+    {
+      "id": "588",
+      "nombre": "GATO",
+      "password": "gato.1234",
+      "email": "gato@gato.com"
+    },
+    {
+      "id": 982,
+      "nombre": "PERRO",
+      "email": "perro@perro.com",
+      "password": "perro.1234"
+    }
+  ]
+}
